@@ -1,7 +1,7 @@
 {
-  "name": "google-calendar-slack-status",
+  "name": "eating experiment tracker 1.0",
   "version": "1.0.0",
-  "description": "Automatically sync your Google Calendar events to your Slack status",
+  "description": "Randomly select an item to know what to eat hourly",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,20 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bjork24/google-calendar-slack-status.git"
+    "url": "git+https://github.com/marcepolis/slack-google-calendar"
   },
   "keywords": [],
-  "author": "Dan Chilton <dan.chilton@gmail.com>",
+  "author": "Marcepolis <dmarce.crfx@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bjork24/google-calendar-slack-status/issues"
+    "url": "https://github.com/marcepolis/slack-google-calendar/issues"
   },
-  "homepage": "https://github.com/bjork24/google-calendar-slack-status#readme",
+  "homepage": "https://github.com/marcepolis/slack-google-calendar#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "moment": "^2.20.1",
     "morgan": "^1.9.0",
-    "slack": "^10.1.1"
   }
 }

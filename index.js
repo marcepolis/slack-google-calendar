@@ -65,7 +65,6 @@ app.get('/', (req, res, next) => {
     <!DOCTYPE html>
     <html>
       <head>
-        <meta charset="utf-8">
         <title>Welcome!</title>
         <style>
           pre {
@@ -80,9 +79,7 @@ app.get('/', (req, res, next) => {
         <p>You'll need the following information for your IFTTT recipe:</p>
         <h3>Body</h3>
 <pre>{
-  "title":"<<<{{Title}}>>>",
   "start":"{{andomItem}}",
-  "end":"{{Ends}}",
 }</pre>
       </body>
     </html>
